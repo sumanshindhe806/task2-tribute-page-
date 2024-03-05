@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Gates</title>
+  </head>
+
+  <body>
+    <!--1.	Your tribute page should have a main element with a corresponding id of main, which contains all other elements-->
+    <main id="main">
+      
+      <!--2.	You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")-->
+      <h1 id="title">Bill Gates</h1>
+      <p id="subtitle">Co-founder of Microsoft and Bill & Melinda Gates Foundation</p>
+      <!--3.	You should see either a figure or a div element with an id of img-div-->
+      
+      <figure id="img-div">
+        <!--4.	Within the #img-div element, you should see an img element with a corresponding id="image"
+        8.	Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size 
+        9.	Your img element should be centered within its parent element -->
+        <img
+          id="image"
+          src="https://akcdn.detik.net.id/visual/2020/04/27/4ed32d57-b09f-464b-bf43-3350cc58b409_169.jpeg?w=650&q=90"
+          alt="William Henry Gates III is an American business magnate, investor, and philanthropist"
+        />
+        <!--5.	Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div-->
+        <figcaption id="img-caption">
+          William Henry Gates III is an American business magnate, investor, and philanthropist
+        </figcaption>
+      </figure>
+
+      <!--6.	You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page-->
+      <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Bill Gates's life:</h3>
+        <ul>
+          <li><strong>1955</strong> - Born in Seattle, Washington</li>
+          <li><strong>1973</strong> - Enrolled at Harvard College</li>
+          <li><strong>1975</strong> - Left Harvard and founded Microsoft in Albuquerque, New Mexico with Paul Allen</li>
+          <li><strong>1985</strong> - Launched their first retail version of Microsoft Windows</li>
+          <li><strong>1994</strong> - Married Melinda French on the Hawaiian Island of Lanai</li>
+          <li><strong>2000</strong> - Founded Bill & Melinda Gates Foundation in Seattle, Washington</li>
+          <li><strong>2015</strong> - Wrote about the challenge of transitioning the world's energy system from one based primarily on fossil fuels to one based on sustainable energy sources</li>
+          <li><strong>2023</strong> - An estimated net worth of US$133 billion, making him the fifth-richest person in the world according to Bloomberg Billionaires Index</li>
+        </ul>
+
+        <blockquote
+        >
+        <p>
+            "First the machines will do a lot of jobs for us and not be super intelligent. That should be positive if we manage it well. A few decades after that though the intelligence is strong enough to be a concern. I agree with Elon Musk and some others on this and don't understand why some people are not concerned."
+          </p>
+          <cite><a href="https://www.forbes.com/sites/ericmack/2015/01/28/bill-gates-also-worries-artificial-intelligence-is-a-threat" target="_blank">-- Forbes</a></cite>
+        </blockquote>
+
+        <!--7.	You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab-->
+        <h4>
+          Read more about Bill Gates on
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Bill_Gates"
+            target="_blank"
+            >Wikipedia</a
+          >.
+        </h4>
+      </section>
+    </main>
+  </body>
+</html>
